@@ -2,7 +2,7 @@
 
 Backend Java engineer with 7+ years of experience. I build things that process large amounts of data, draw maps, and occasionally fly under the radar.
 
-Currently CTO at [Map AI](https://interactive-map-ai.com) — a geospatial SaaS platform I built from scratch.
+Currently Developing [Map AI](https://interactive-map-ai.com) — a geospatial SaaS platform I built from scratch as CTO.
 
 ---
 
