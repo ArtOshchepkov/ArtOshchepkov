@@ -40,6 +40,13 @@ STM32-based device written in C that determines the direction to a sound source 
 
 ---
 
+## 🌍 Open Source
+
+**[JTS Topology Suite](https://github.com/locationtech/jts/issues/662)** — bug report & fix  
+Found a bug in the grid generator, identified the exact line, proposed the fix — accepted and merged.
+
+---
+
 ## 📄 White Papers
 
 **[Map Matching via Emission Probability](map-matching-emission-probability-white-paper.pdf)** — unpublished  
