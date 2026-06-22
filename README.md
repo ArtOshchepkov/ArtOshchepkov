@@ -3,8 +3,6 @@
 Backend Java engineer with 7+ years of experience. I build things that process large amounts of data, draw maps, and occasionally fly under the radar.
 
 Currently CTO at [Map AI](https://interactive-map-ai.com) — a geospatial SaaS platform I built from scratch.
-<img width="3200" height="1488" alt="image" src="https://github.com/user-attachments/assets/323fa0e2-2b2c-4069-889b-1c1370700e58" />
-
 
 ---
 
@@ -39,6 +37,16 @@ Contributed to the development of individual traffic data processing modules.
 
 **Acoustic Direction Finder** — Bachelor's thesis  
 STM32-based device written in C that determines the direction to a sound source in real time using microphone arrays and signal processing. [Watch it on YouTube →](https://www.youtube.com/watch?v=VJK4P9Nlrfc)
+
+---
+
+## 📄 White Papers
+
+**[Map Matching via Emission Probability](map-matching-emission-probability-white-paper.pdf)** — unpublished  
+A technical deep-dive into map matching algorithms using Hidden Markov Models and emission probability. The foundation of my Master's thesis work.
+
+**[Investigating Longevity in the US Using High-Resolution Data and Location Intelligence Tool](https://www.researchgate.net/publication/382896321_Investigating_Longevity_in_the_US_Using_High-Resolution_Data_and_Location_Intelligence_Tool)**  
+Research on the relationship between life expectancy, income, and education across major US cities using 1-mile granular data. Based on tools I developed.
 
 ---
 
