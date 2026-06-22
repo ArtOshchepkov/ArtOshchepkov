@@ -22,13 +22,13 @@ Currently CTO at [Map AI](https://interactive-map-ai.com) — a geospatial SaaS 
 ## 🚀 What I've built
 
 **[Map AI](https://interactive-map-ai.com)** — Interactive demographic map of the USA  
-ETL pipeline processing the entire US census dataset: 100+ parameters → 3M geographic cells. AI chat powered by Mapbox MCP + custom MCP server. 2,000 MAU.
+I built this from zero as CTO — designed the overall architecture, hired and managed the team, and wrote the core backend myself. The platform processes the entire US census dataset (100+ demographic parameters across 3M geographic cells) via a Spring Batch ETL pipeline. On top of that: an AI chat agent powered by Mapbox MCP and our own MCP server, subscription billing, OAuth2 auth, and an SEO strategy that grew organic traffic 20x. Grew to 2,000 MAU in 2 years.
 
 **[Ticon](https://ticon.co)** — Vehicle traffic analytics platform  
-GPS track processing pipeline: terabytes of raw data → structured insights via Hidden Markov Model map matching. Handles 100k+ points per report in under 2 minutes.
+Designed and built a GPS track processing pipeline that extracts structured data from terabytes of raw location data using a Hidden Markov Model map matching algorithm — the same topic as my Master's thesis. Handles 100k+ points per report in under 2 minutes, achieved through deep profiling and iterative optimization.
 
 **[TrafficZoom](https://trafficzoom.co)** — Traffic analytics product  
-Contributed to the development of individual traffic data processing modules.
+Contributed individual traffic data processing modules.
 
 **[WC In Time](https://t.me/wcintime_bot)** — Find the nearest toilet, anywhere  
 300,000+ locations from OpenStreetMap. Geospatial search via PostGIS. Available globally on Telegram.
