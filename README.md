@@ -9,13 +9,13 @@ Currently CTO at [Map AI](https://interactive-map-ai.com) — a geospatial SaaS 
 ## 🛠 Stack
 
 **Backend:** Java · Spring Boot · Spring Batch · Hibernate · PostgreSQL · JUnit · Python · FastAPI · Redis · REST · Kafka · Microservices  
-**Geospatial:** Geospatial Engineering · Mapbox · PostGIS  
-**Frontend:** Angular · TypeScript · JavaScript · SEO  
+**Geospatial:** Geospatial Engineering · Mapbox · PostGIS · Map Matching · GPS Time Series Data  
+**Frontend:** Angular · TypeScript · JavaScript · Thymeleaf · Raw HTML/CSS · SEO  
 **DevOps:** AWS (EC2, S3, Lambda) · Docker · Linux · CI/CD · Git  
 **Data / ML:** Machine Learning · Statistics · Big Data · ETL · Hidden Markov Models · n8n  
 **Testing:** JUnit · Mockito · Postman · Integration Testing  
 **General:** System Design · Technical Leadership · Mentorship · Agile · Scrum  
-**Had fun with** *(university & side projects)*: C++ · C · Assembly · HLS · STM32 · Qt · Kotlin
+**Had fun with** *(university & side projects)*: C++ · C · Assembly · HLS · STM32 · Qt · Kotlin · React · Java EE · Javalin · jOOQ · JavaFX · Brainfuck
 
 ---
 
@@ -26,6 +26,9 @@ ETL pipeline processing the entire US census dataset: 100+ parameters → 3M geo
 
 **[Ticon](https://ticon.co)** — Vehicle traffic analytics platform  
 GPS track processing pipeline: terabytes of raw data → structured insights via Hidden Markov Model map matching. Handles 100k+ points per report in under 2 minutes.
+
+**[TrafficZoom](https://trafficzoom.co)** — Traffic analytics product  
+Contributed to the development of individual traffic data processing modules.
 
 **[WC In Time](https://t.me/wcintime_bot)** — Find the nearest toilet, anywhere  
 300,000+ locations from OpenStreetMap. Geospatial search via PostGIS. Available globally on Telegram.
