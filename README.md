@@ -8,12 +8,14 @@ Currently CTO at [Map AI](https://interactive-map-ai.com) — a geospatial SaaS 
 
 ## 🛠 Stack
 
-**Backend:** Java · Spring Boot · Spring Batch · Hibernate · PostgreSQL · PostGIS · Kafka · Redis  
-**Cloud:** AWS (EC2, S3, Lambda) · Docker · CI/CD  
-**Data:** Big Data pipelines · ETL · Machine Learning · Hidden Markov Models  
-**Frontend:** Angular · Mapbox · TypeScript  
-**Also:** Python · FastAPI · n8n  
-**Had fun with** *(university projects)*: C++ · C · Assembly · HLS · STM32 · Qt
+**Backend:** Java · Spring Boot · Spring Batch · Hibernate · PostgreSQL · JUnit · Python · FastAPI · Redis · REST · Kafka · Microservices  
+**Geospatial:** Geospatial Engineering · Mapbox · PostGIS  
+**Frontend:** Angular · TypeScript · JavaScript · SEO  
+**DevOps:** AWS (EC2, S3, Lambda) · Docker · Linux · CI/CD · Git  
+**Data / ML:** Machine Learning · Statistics · Big Data · ETL · Hidden Markov Models · n8n  
+**Testing:** JUnit · Mockito · Postman · Integration Testing  
+**General:** System Design · Technical Leadership · Mentorship · Agile · Scrum  
+**Had fun with** *(university & side projects)*: C++ · C · Assembly · HLS · STM32 · Qt · Kotlin
 
 ---
 
@@ -23,27 +25,27 @@ Currently CTO at [Map AI](https://interactive-map-ai.com) — a geospatial SaaS 
 ETL pipeline processing the entire US census dataset: 100+ parameters → 3M geographic cells. AI chat powered by Mapbox MCP + custom MCP server. 2,000 MAU.
 
 **[Ticon](https://ticon.co)** — Vehicle traffic analytics platform  
-GPS track processing pipeline: terabytes of raw data → structured insights via Hidden Markov Model map matching. Handles 100k+ points per report in <2 min.
+GPS track processing pipeline: terabytes of raw data → structured insights via Hidden Markov Model map matching. Handles 100k+ points per report in under 2 minutes.
 
 **[WC In Time](https://t.me/wcintime_bot)** — Find the nearest toilet, anywhere  
 300,000+ locations from OpenStreetMap. Geospatial search via PostGIS. Available globally on Telegram.
 
-**[Lamopad](https://lamopad.ru/samosval/game/)** — Vibe-coded musical business card website with interactive online games. Because why not.
+**[Lamopad](https://lamopad.ru/samosval/game/)** — A website for my music project, vibe-coded with interactive online games built in.
 
-**Acoustic Direction Finder** — Bachelor's thesis project  
-STM32-based device that determines the direction to a sound source in real time using microphone arrays and signal processing. [Watch it work on YouTube →](https://www.youtube.com/watch?v=VJK4P9Nlrfc)
+**Acoustic Direction Finder** — Bachelor's thesis  
+STM32-based device written in C that determines the direction to a sound source in real time using microphone arrays and signal processing. [Watch it on YouTube →](https://www.youtube.com/watch?v=VJK4P9Nlrfc)
 
 ---
 
 ## 📚 Education
 
 **Master's** in Neurotechnologies & Software Engineering — ITMO University, 2020–2022  
-*Thesis: Map Matching Algorithm for GPS Tracks Using Hidden Markov Models*
+Thesis: Map Matching Algorithm for GPS Tracks Using Hidden Markov Models
 
 **Bachelor's** in Computer Science — ITMO University, 2016–2020  
-*Thesis: Real-time Acoustic Direction Finding System Based on STM32*
+Thesis: Real-time Acoustic Direction Finding System Based on STM32
 
-> ITMO is the university that gave the world the Kotlin programming language and has won the ICPC World Championship in competitive programming more times than anyone else.
+> ITMO is the university behind the Kotlin programming language and the most decorated team in ICPC World Championship history.
 
 ---
 
@@ -53,8 +55,6 @@ STM32-based device that determines the direction to a sound source in real time 
 
 ---
 
-*Also have an old GitHub account: [semitro](https://github.com/semitro)*
+*Old GitHub account: [semitro](https://github.com/semitro)*
 
----
-
-> 🏝️ *Fun fact: I once traveled to Lombok island just because of the Java library name.*
+> 🏝️ Fun fact: I once traveled to Lombok island just because of the Java library name.
