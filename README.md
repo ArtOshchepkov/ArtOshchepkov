@@ -2,7 +2,7 @@
 
 Backend Java engineer with 7+ years of experience. I build things that process large amounts of data, draw maps, and occasionally fly under the radar.
 
-Currently Developing [Map AI](https://interactive-map-ai.com) — a geospatial SaaS platform I built from scratch as CTO.
+Currently Developing [Map AI](https://interactive-map-ai.com) — a geospatial SaaS platform I built from scratch as a Founding Engineer.
 <img width="3200" height="1488" alt="image" src="https://github.com/user-attachments/assets/f6e66045-a178-4a72-a1f3-1d45a70a9b66" />
 
 ---
@@ -48,13 +48,16 @@ Found a bug in the grid generator, identified the exact line, proposed the fix �
 
 ---
 
-## 📄 White Papers
+## 📄 My publications and White Papers
 
 **[Map Matching via Emission Probability](map-matching-emission-probability-white-paper.pdf)** — unpublished  
 A technical deep-dive into map matching algorithms using Hidden Markov Models and emission probability. The foundation of my Master's thesis work.
 
 **[Investigating Longevity in the US Using High-Resolution Data and Location Intelligence Tool](https://www.researchgate.net/publication/382896321_Investigating_Longevity_in_the_US_Using_High-Resolution_Data_and_Location_Intelligence_Tool)**  
 Research on the relationship between life expectancy, income, and education across major US cities using 1-mile granular data. Based on tools I developed.
+
+** [Why you can't find a job in 2026. Lemons.](https://habr.com/ru/articles/1056172/) (in Russian).
+My Habr article exploring the "market for lemons" theory and its impact on 2026 IT hiring. Trust and signaling.
 
 ---
 
