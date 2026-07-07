@@ -23,7 +23,7 @@ Currently Developing [Map AI](https://interactive-map-ai.com) — a geospatial S
 ## 🚀 What I've built
 
 **[Map AI](https://interactive-map-ai.com)** — Interactive demographic map of the USA  
-I built this from zero as CTO — designed the overall architecture, hired and managed the team, and wrote the core backend myself. The platform processes the entire US census dataset (100+ demographic parameters across 3M geographic cells) via a Spring Batch ETL pipeline. On top of that: an AI chat agent powered by Mapbox MCP and our own MCP server, subscription billing, OAuth2 auth, and an SEO strategy that grew organic traffic 20x. Grew to 2,000 MAU in 2 years.
+I built this from zero as the Founding Engineer. I designed the overall architecture, wrote core Backend Java-Spring and core frontend Angular/Mapbox code, affected feature planning, hired and managed the team. The platform processes the entire US census dataset (100+ demographic parameters across 3M geographic cells) via a Spring Batch ETL pipeline. On top of that: an AI chat agent powered by Mapbox MCP and our own MCP server, subscription billing, OAuth2 auth, and an SEO strategy that grew organic traffic 3x. Grew to 2,000 MAU in 3 years.
 
 **[Ticon](https://ticon.co)** — Vehicle traffic analytics platform  
 Designed and built a GPS track processing pipeline that extracts structured data from terabytes of raw location data using a Hidden Markov Model map matching algorithm — the same topic as my Master's thesis. Handles 100k+ points per report in under 2 minutes, achieved through deep profiling and iterative optimization.
