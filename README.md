@@ -76,7 +76,7 @@ Thesis: Real-time Acoustic Direction Finding System Based on STM32
 ## 📬 Get in touch
 
 [Telegram](https://t.me/art_oshk) · tim.oshchepkov@gmail.com
-
+[LinkedIn](https://www.linkedin.com/in/artem-oshchepkov-0b7938234/.)
 ---
 
 *Old GitHub account: [semitro](https://github.com/semitro)*
