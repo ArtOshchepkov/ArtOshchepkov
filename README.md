@@ -1,73 +1,73 @@
-# Hey, I'm Artem 👋
+# Hey, I'm Artem (Tim) 👋
 
-Backend Java engineer with 7+ years of experience. I build things that process large amounts of data, draw maps, and occasionally fly under the radar.
+Backend engineer (Java, geospatial and data-intensive systems) with 7+ years in production.
+I turn terabytes of GPS, census and road data into products people pay for: map matching, road networks, ETL pipelines, and the maps on top.
+Founding engineer of [Map AI](https://interactive-map-ai.com), a US location-intelligence SaaS I built from the first commit.
 
-Currently Developing [Map AI](https://interactive-map-ai.com) — a geospatial SaaS platform I built from scratch as a Founding Engineer.
-<img width="3200" height="1488" alt="image" src="https://github.com/user-attachments/assets/f6e66045-a178-4a72-a1f3-1d45a70a9b66" />
+📍 Tbilisi, Georgia (GMT+4) · remote, open to relocation within the EU
 
----
-
-## 🛠 Stack
-
-**Backend:** Java · Spring Boot · Spring Batch · Hibernate · PostgreSQL · JUnit · Python · FastAPI · Redis · REST · Kafka · Microservices  
-**Geospatial:** Geospatial Engineering · Mapbox · PostGIS · Map Matching · GPS Time Series Data  
-**Frontend:** Angular · TypeScript · JavaScript · Thymeleaf · Raw HTML/CSS · SEO  
-**DevOps:** AWS (EC2, S3, Lambda) · Docker · Linux · CI/CD · Git  
-**Data / ML:** Machine Learning · Statistics · Big Data · ETL · Hidden Markov Models · n8n  
-**Testing:** JUnit · Mockito · Postman · Integration Testing  
-**General:** System Design · Technical Leadership · Mentorship · Agile · Scrum  
-**Had fun with** *(university & side projects)*: C++ · C · Assembly · HLS · STM32 · Qt · Kotlin · React · Java EE · Javalin · jOOQ · JavaFX · Brainfuck
+<img width="3200" height="1488" alt="Map AI: interactive demographic map of the USA" src="https://github.com/user-attachments/assets/f6e66045-a178-4a72-a1f3-1d45a70a9b66" />
 
 ---
 
 ## 🚀 What I've built
 
-**[Map AI](https://interactive-map-ai.com)** — Interactive demographic map of the USA  
-I built this from zero as the Founding Engineer. I designed the overall architecture, wrote core Backend Java-Spring and core frontend Angular/Mapbox code, affected feature planning, hired and managed the team. The platform processes the entire US census dataset (100+ demographic parameters across 3M geographic cells) via a Spring Batch ETL pipeline. On top of that: an AI chat agent powered by Mapbox MCP and our own MCP server, subscription billing, OAuth2 auth, and an SEO strategy that grew organic traffic 3x. Grew to 2,000 MAU in 3 years.
+**[Map AI](https://interactive-map-ai.com)** - interactive demographic map of the USA (founding engineer, de-facto CTO, 2022 - now)
+- Took the product from idea to **2,000 MAU**; designed the architecture, wrote the core backend and the Angular + Mapbox frontend, hired and mentored the team.
+- **Spring Batch ETL over the entire US census**: 100+ parameters into 3M geo cells in under 60 hours (plain JDBC, tuned batching, parallelism and GC).
+- Demographic profile for **any arbitrary US geometry in under 30 s** (JTS); REST API over millions of cells with bulk requests **under 300 ms**.
+- **AI map agent** ([try it](https://interactive-map-ai.com/chat)): Python + Pydantic AI, combining the Mapbox MCP server with an MCP server I built into our Spring backend; it draws its answers on a live map.
+- Proposed and built programmatic SEO: 30,000+ indexed pages, Google Search impressions **from zero to 500K+**.
+- End-to-end Stripe subscription billing that carries all company revenue.
 
-**[Ticon](https://ticon.co)** — Vehicle traffic analytics platform  
-Designed and built a GPS track processing pipeline that extracts structured data from terabytes of raw location data using a Hidden Markov Model map matching algorithm — the same topic as my Master's thesis. Handles 100k+ points per report in under 2 minutes, achieved through deep profiling and iterative optimization.
+**[Ticon](https://ticon.co) / [TrafficZoom](https://trafficzoom.co)** - US traffic analytics from GPS traces (2020 - now)
+- GPS pipeline over **terabytes of raw GPS** with **HMM map matching** (the topic of my Master's thesis): millions of points per report in under 2 minutes after deep profiling.
+- US road-network topology from the full OpenStreetMap extract (PostGIS + JTS); **3M+ traffic detectors** from all 50 state DOTs matched to road segments.
+- Invented a visitor-estimation algorithm on map-matched trips, the basis of a $2,000 Sales Projection report.
+- Truck-traffic model trained on 555K detector samples I collected (R² 0.83, MAE 132 trucks/day); founded the Kotlin census microservice.
+- Core geospatial endpoint from 5 s to 600 ms on a 1 TB table; a Redis Lua script took an admin endpoint from 1 hour to under 1 second.
 
-**[TrafficZoom](https://trafficzoom.co)** — Traffic analytics product  
-Contributed individual traffic data processing modules.
+**[WC In Time](https://t.me/wcintime_bot)** - find the nearest toilet, anywhere.  
+300,000+ locations from OpenStreetMap, PostGIS search, live on Telegram.
 
-**[WC In Time](https://t.me/wcintime_bot)** — Find the nearest toilet, anywhere  
-300,000+ locations from OpenStreetMap. Geospatial search via PostGIS. Available globally on Telegram.
+**[Lamopad](https://lamopad.ru/samosval/game/)** - the site of my music project, with browser games built in.  
+I also write [statistics explainers](https://lamopad.ru/strategy/) there (in Russian), with interactive calculators, Bayes in four different ways.
 
-**[Lamopad](https://lamopad.ru/samosval/game/)** — A website for my music project, vibe-coded with interactive online games built in.
-
-**Acoustic Direction Finder** — Bachelor's thesis  
-STM32-based device written in C that determines the direction to a sound source in real time using microphone arrays and signal processing. [Watch it on YouTube →](https://www.youtube.com/watch?v=VJK4P9Nlrfc)
+**Acoustic direction finder** - my Bachelor's thesis.  
+STM32 device in C that finds the direction to a sound source in real time with a microphone array and on-chip DSP. [Watch it on YouTube →](https://www.youtube.com/watch?v=VJK4P9Nlrfc)
 
 ---
 
-## 🌍 Open Source
+## 📄 Research and open source
 
-**[JTS Topology Suite](https://github.com/locationtech/jts/issues/662)** — bug report & fix  
-Found a bug in the grid generator, identified the exact line, proposed the fix — accepted and merged.
+**[JTS Topology Suite](https://github.com/locationtech/jts/issues/662)** - found a bug in the grid generator, located the exact line, proposed the fix; merged upstream.
+
+**[Emission probability in vehicle map matching via Hidden Markov Models](emission-probability-in-vehicle-map-matching-via-hmm.pdf)** - white paper, unpublished.  
+Shows that road width and geometry representation matter for HMM map matching; GPS error sigma of 4.5 m estimated on 10M+ real points.
+
+**[Investigating Longevity in the US Using High-Resolution Data and Location Intelligence Tool](https://www.researchgate.net/publication/382896321_Investigating_Longevity_in_the_US_Using_High-Resolution_Data_and_Location_Intelligence_Tool)** - co-author.  
+Life expectancy vs income and education across major US cities on 1-mile granular data from the tool I built.
+
+**[Why you can't find a job in 2026. Lemons.](https://habr.com/ru/articles/1056172/)** - Habr article (in Russian) on the "market for lemons" in IT hiring, and why signals beat keywords.
 
 ---
 
-## 📄 My publications and White Papers
+## 🛠 Stack
 
-**[Map Matching via Emission Probability](map-matching-emission-probability-white-paper.pdf)** — unpublished  
-A technical deep-dive into map matching algorithms using Hidden Markov Models and emission probability. The foundation of my Master's thesis work.
-
-**[Investigating Longevity in the US Using High-Resolution Data and Location Intelligence Tool](https://www.researchgate.net/publication/382896321_Investigating_Longevity_in_the_US_Using_High-Resolution_Data_and_Location_Intelligence_Tool)**  
-Research on the relationship between life expectancy, income, and education across major US cities using 1-mile granular data. Based on tools I developed.
-
-**[Why you can't find a job in 2026. Lemons.](https://habr.com/ru/articles/1056172/)** (in Russian).
-My Habr article exploring the "market for lemons" theory and its impact on 2026 IT hiring. Trust and signaling.
+**Expert:** Java 21 · Spring Boot / Batch / Security / Data · PostgreSQL · PostGIS · JTS · H3 · OpenStreetMap · map matching · performance tuning  
+**Strong:** Python (FastAPI, NumPy, pandas, ML) · Angular + TypeScript · Mapbox GL · Redis · AWS (EC2, S3, Batch, Lambda, CDK) · Docker · Nginx · LLM agents, MCP, RAG  
+**Working:** Kotlin (founded a production microservice) · Kafka · Citus · Spark · Martin vector tiles · Stripe  
+**Had fun with** *(university and side projects)*: C · C++ · x86 Assembly (a Forth interpreter) · STM32 · FPGA (HLS) · Qt · WebGL shaders · Rust · Brainfuck
 
 ---
 
 ## 📚 Education
 
-**Master's** in Neurotechnologies & Software Engineering — ITMO University, 2020–2022  
-Thesis: Map Matching Algorithm for GPS Tracks Using Hidden Markov Models
+**MSc**, Neurotechnologies and Software Engineering, ITMO University, 2020 - 2022.  
+Thesis: Map Matching Algorithm for GPS Tracks Using Hidden Markov Models.
 
-**Bachelor's** in Computer Science — ITMO University, 2016–2020  
-Thesis: Real-time Acoustic Direction Finding System Based on STM32
+**BSc**, Computer Science, ITMO University, 2016 - 2020.  
+Thesis: Real-time Acoustic Direction Finding System Based on STM32.
 
 > ITMO is the university behind the Kotlin programming language and the most decorated team in ICPC World Championship history.
 
@@ -75,9 +75,7 @@ Thesis: Real-time Acoustic Direction Finding System Based on STM32
 
 ## 📬 Get in touch
 
-[Telegram](https://t.me/art_oshk) · tim.oshchepkov@gmail.com
-[LinkedIn](https://www.linkedin.com/in/artem-oshchepkov-0b7938234/.)
----
+[Telegram](https://t.me/art_oshk) · tim.oshchepkov@gmail.com · [LinkedIn](https://www.linkedin.com/in/artem-oshchepkov-0b7938234/)
 
 *Old GitHub account: [semitro](https://github.com/semitro)*
 
